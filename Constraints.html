@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/site.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <title>VaRchLab - Constraints</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark" style="background-color: #10c7f5;">
+            <a class="navbar-brand" href="Index.html">SOFTWARE SYSTEMS ARCHITECTURE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="Index.html">Home</a>
+                <a class="nav-item nav-link" href="FunctionalRequirements.html">Functional Requirements</a>
+                <a class="nav-item nav-link" href="QARequirements.html">Quality Attribute Requirements</a>
+                <a class="nav-item nav-link" href="Constraints.html">Constraints</a>
+                <a class="nav-item nav-link" href="QAScenarios.html">Quality Attribute Scenarios</a>
+                <a class="nav-item nav-link" href="AboutUs.html">About Us</a>
+                <a class="nav-item nav-link" href="SSAVRExperience.html">SSA VR Experience</a>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <div class = "wrapper">
+        <main class="noimage1">
+            <div class="noimage">
+                <div class="col-md-12 col-sm-6 bg w1"> 
+                    <h1 class="h1ding">Constraints  </h1>
+                    <h2 class="h2ding">What are Constraints in Software Architecture?</h2>
+                        <p class="pgraph">Constraints are fixed design restrictions put in place by the stakeholders and users. This amounts to
+                            features that the developers must include and the requirements they must adhere to when they are developing software or hardware. </p>
+                        <p class="pgraph">They are critical to software development as they make sure that the architecture is built on top of the listed contraints,
+                            and they cannot be changed without breaking the necesary requirements. </p>
+                        <!-- Resourced from:  -->  
+
+                    <h2 class="h2ding">How are Constraints established? </h2>
+                    <p class="pgraph">Constraints are established by stakeholders and Project Delivery Leads. They "constrain" developments by enforcing some of
+                        the requirements that a piece of software must contain.  </p>
+                    <p class="pgraph">An example of a technical constraint may be "Programming Language".  It may be specified, for instance, that "This system must 
+                        be built in Java". This is different to a functional requirement, as with a functional requirement, the developers must implement a feature,
+                        but they have the freedom to chose how they do it. Constraints tell the developers <b> HOW </b> they need to implement the feature. </p>
+                            
+                    <h2 class="h2ding">Technical Constraints vs Business Constraints </h3>
+                    <p class="pgraph">There are two types of Constraints in Software Development: Those that are Technical, and those that are Business - oriented. </p>
+                    <dlv class="desct">
+                        <dt>Technical Constraints </dt>
+                        <dd>Technical constraints relate to design decisions that are architectural drivers for what is being developed. 
+                            They define how something must be developed, and
+                            they can be defined by the design team if they wish to simplify the scope on what they are developing (Oussalah 2013). </dd>
+                        <!-- Referenced from: https://www.lirmm.fr/~tibermacin/papers/2014/CT_ChapterOussalah_2014.pdf-->
+                        <dd> Some examples of technical constraints may be: </dd>
+                        <ul> 
+                            <li> Programming Language - What language MUST the code be written in </li>
+                            <li> Platforms supported - What platforms MUST the system/software support </li>
+                            <li> UI Elements required - What User Interface (UI) Elements MUST be shown on the screen </li>
+                        </ul>
+
+                        <dt>Business Constraints </dt>
+                        <dd>Business Constraints relate to decisions that restrict software architecture design. They are not related to the development of the software
+                            itself, but are restrictions in place to the resources that a development team has available to them (Keeling 2014). </dd>
+                        <dd> Some examples of technical constraints may be: </dd>
+                        <ul>
+                            <li> Schedule/Time costraints - How much time a development goal MUST be met by  </li>
+                            <li> Budgeting - How much money is available to the team to develop a specific component </li>
+                            <li> Software Licensing - The software that is available for the team to use in development </li>
+                        </ul>
+                    </dlv>
+                        <!-- Resourced from: https://www.neverletdown.net/2014/10/dealing-with-constraints-in-software-architecture.html -->
+                    <h2 class=""h2ding>Check your knowledge with this statement!</h2>
+                    <div id="container">
+                        <p>IBM's JDK is a library that must be used to develop the software in. This is an example of a Business Constraint.</p>
+                        <form id="quiz-form">
+                          <input type="radio" id="true" name="answer" value="true">
+                          <label for="true">True</label>
+                          <br>
+                          <input type="radio" id="false" name="answer" value="false">
+                          <label for="false">False</label>
+                          <br>
+                          <button type="submit" id="submit-button">Submit</button>
+                        </form>
+                      </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="noimage">
+        <div class="container-fluid">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: rgba(22, 22, 22, 0.79); padding: auto;">
+        <p class="footer">&copy; 2023 Group 24 (9785). All rights reserved to the University of Canberra.</p>
+        <p class="footer"style="margin-bottom: 0rem;">Website created with Visual Studio Code.</p>
+    </footer>
+</body>
+</html>

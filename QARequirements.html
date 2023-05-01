@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/site.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <title>VaRchLab - Quality Attribute Requirements </title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="myscripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark" style="background-color: #10c7f5;">
+            <a class="navbar-brand" href="Index.html">SOFTWARE SYSTEMS ARCHITECTURE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="Index.html">Home</a>
+                <a class="nav-item nav-link" href="FunctionalRequirements.html">Functional Requirements</a>
+                <a class="nav-item nav-link" href="QARequirements.html">Quality Attribute Requirements</a>
+                <a class="nav-item nav-link" href="Constraints.html">Constraints</a>
+                <a class="nav-item nav-link" href="QAScenarios.html">Quality Attribute Scenarios</a>
+                <a class="nav-item nav-link" href="AboutUs.html">About Us</a>
+                <a class="nav-item nav-link" href="SSAVRExperience.html">SSA VR Experience</a>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <div class = "wrapper">
+        <main class="noimage1">
+            <div class="noimage">
+                <div class="col-md-12 col-sm-6 bg w1"> 
+                    <h1 class="h1ding"> Quality Attribute Requirements </h1>
+                    <h2 class="h2ding"> What are Quality Attribute Requirements in Software Architecture</h2>
+                        <p class="pgraph"> Quality Attribute Requirements (QAR), a.k.a. Non-Functional Requirements,  are a means of validating the Functional Requirements 
+                            created in Agile Development. 
+                            Each QAR provides a more in-depth context behind different aspects of each functional Requirement (Carneige Mellon University 2023). </p>
+                        <p class="pgraph"> For example, you may have a Functional Requirement where the "User must be able to login with their account credentials",
+                            a relavent qualification using a QAR may be how fast it takes for the system to log the user in.
+                            This example here is a referemce to the QAR of <b> Performance </b>.  </p>
+                        <!-- Resourced from: https://www.google.com/search?q=quality+attribute+requirements&rlz=1C1UEAD_enAU1039AU1039&oq=qual&aqs=chrome.0.69i59j69i57j46i131i199i433i465i512j69i61l3j69i65l2.2510j0j7&sourceid=chrome&ie=UTF-8 -->
+
+                    <h2 class="h2ding"> How many Quality Attributes are there? </h2>
+                    <p class="pgraph">There is a large list of Quality Attributes, but the main ones that are considered are:  </p>
+                    <ul>
+                        <li class="lsts" style= "color: purple" > <b> Availability </b> - How available is a Web application to the user when it is updating?   </li>
+                        <li class="lsts", style= "color: purple" > <b> Interoperability </b> - How does the system retrieve data from other systems? </li>
+                        <li class="lsts", style= "color: purple" > <b> Modifiability </b> - How easily can developers modify the data? </li>
+                        <li class="lsts", style= "color: purple" > <b> Performance </b> - How fast does the system respond when the user inputs data? </li>
+                        <li class="lsts", style= "color: purple" > <b> Security </b> - How does the system handle unauthorized users? </li>
+                        <li class="lsts", style= "color: blue" > <b> Tetability </b> - How easy is it for Testers to check the fucntionality of the sytem? </li>
+                        <li class="lsts", style= "color: blue" > <b> Usability </b> - How easy is it for users to interact with the system?</li>
+                        <li class="lsts", style= "color: rgb(3, 133, 247)" > <b> Scalability </b> - How well does the system accomodate a large number of users and data?  </li>
+                        <!-- <li class="lsts", style= "color: rgb(3, 133, 247)" > <b>  Mobility </b> </li>  -->
+                        
+                    </ul>
+                            
+                    <h2 class="h2ding"> How do these Quality Attributes relate to Agile Development? </h3>
+                    <p class="pgraph"> A Functional Requirement can have one or many Quality Attribute Requirements it must meet. For example,
+                        if a the Functional Requirement is "User must be able to login with their account credentials", then the QAR of <b> Availability </b> may be
+                        that "The system MUST be avalable to the user 24/7 so that they can login at any time."
+                    </p>
+
+                
+                    <h2 class ="h2ding">Fill in the blanks to test your understanding! </h1>
+                    <p id="sentence">The Quality Attribute Requirement (QAR) _____ relates to how fast/efficiently a system is able to perform a function, whereas the QAR
+                        _____ relates to how unauthorized users will not have access to the system.</p>
+
+                    <div id="options">
+                        <div class="option" draggable="true">Performance</div>
+                        <div class="option" draggable="true">Security</div>
+                    </div>
+            
+
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="noimage">
+        <div class="container-fluid">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: rgba(22, 22, 22, 0.79); padding: auto;">
+        <p class="footer">&copy; 2023 Group 24 (9785). All rights reserved to the University of Canberra.</p>
+        <p class="footer"style="margin-bottom: 0rem;">Website created with Visual Studio Code.</p>
+    </footer>
+</body>
+</html>

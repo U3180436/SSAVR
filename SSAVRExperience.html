@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/site.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>VaRchLab - VR Experience</title>
+        <script src="javascript/myscripts.js"></script>
+        <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+</head>
+<body>
+    </main>
+    <header>
+        <div class="menu">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark" style="background-color: #10c7f5;">
+            <a class="navbar-brand" href="Index.html">SOFTWARE SYSTEMS ARCHITECTURE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="Index.html">Home</a>
+                <a class="nav-item nav-link" href="FunctionalRequirements.html">Functional Requirements</a>
+                <a class="nav-item nav-link" href="QARequirements.html">Quality Attribute Requirements</a>
+                <a class="nav-item nav-link" href="Constraints.html">Constraints</a>
+                <a class="nav-item nav-link" href="QAScenarios.html">Quality Attribute Scenarios</a>
+                <a class="nav-item nav-link" href="AboutUs.html">About Us</a>
+                <a class="nav-item nav-link" href="test.html">SSA VR Experience</a>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <a-scene>
+        <!-- <a-assets>
+          <img id="my-mvc" src="images/MVC3.png" >
+          <img id="my-client" src="images/ClientServer.png">
+          <img id="my-background" src="images/background.jpg">
+        </a-assets> -->
+
+
+        <a-text value="Constraints" color="#8080ff" position="-1.75 9 45" scale="3 3 3" rotation="0 0 0"></a-text>
+        <a-text value="What are Constraints in Software Architecture?" color="#c7b0f7" position="-2.25 6.75 45" rotation="0 0 0"></a-text>
+        <a-image src="images/ClientServer.png" width="7" height="5" position="-2.25 5 45"></a-image>
+
+        <a-text value="Constraints" color="#8080ff" position="2 9 35" scale="3 3 3" rotation="0 180 0"></a-text>
+        <a-text value="Technical Constraints" color="#c7b0f7" position="2.5 7 35" rotation="0 180 0"></a-text>
+        <a-image src="images/MVC3.png" width="7" height="5" position="2.5 5 35" rotation="0 180 0"></a-image>
+
+        <a-text value="Constraints" color="#8080ff" position="5 9 42" scale="3 3 3" rotation="0 90 0"></a-text>
+        <a-text value="Business Constraints" color="#c7b0f7" position="5 7 42" rotation="0 90 0"></a-text>
+
+        
+        <a-image src="images/background.jpg" width="1" height="1" position="6 5 42" rotation="0 90 0"></a-image>
+
+        <a-text value="Constraints" color="#8080ff" position="-5 9 38" scale="3 3 3" rotation="0 270 0"></a-text>
+        <a-text value="How are Constraints established?" color="#c7b0f7" position="-5 7 37" rotation="0 270 0"></a-text>
+
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" ></a-box>
+        <a-box position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-box>
+        <a-box position="1 0.5 -3" rotation="0 45 0" color="#8080ff" width="1" height="1" depth="1"></a-box>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#5A5A5A"></a-plane>
+
+        <a-box position="-20 5 20" rotation="-90 0 0" width="10" height="10" depth="10" color="#5A5A5A"></a-box>       
+        
+        <a-box position="20 5 20" rotation="-90 0 0" width="10" height="10" depth="10" color="#5A5A5A"></a-box>
+        
+        <a-box position="0 5 40" rotation="-90 0 0" width="10" height="10" depth="10" color="#5A5A5A"></a-box>
+        
+        
+        <a-plane position="-21 0 33" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="-9 0 21" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="-21 0 6" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="-30 0 20" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        
+
+        <a-plane position="33 0 20" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="20 0 33" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="20 0 10" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="10 0 20" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        
+        
+        <a-plane position="0 0 50" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="0 0 30" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="10 0 40" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        <a-plane position="-10 0 40" rotation="-90 0 0" width="1" height="1" color="#c1c1c7"></a-plane>
+        
+
+        <a-sky color="#f7f5f5"></a-sky>
+
+        <!-- <a-text value="WELCOME TO SOFTWARE ARCHITECTURE!" color="#0000FF" position="-2.25 2.5 -3.0"></a-text> -->
+        <a-text value="WELCOME TO SOFTWARE ARCHITECTURE!" color="#000000" position="-6 3 -6.0" scale="3 3 3"></a-text>
+        <a-text value="TURN AROUND USING YOUR MOUSE AND" color="#000000" position="-3 2.25 -6.0"></a-text>
+        <a-text value="EXPLORE" color="#000000" position="1.14 2.25 -6.0"></a-text>
+
+        <!-- Functional Requirements Block -->
+        <a-text value="Functional Requirements" color="#00FFFF" position="-24 9 25" scale="3 3 3"></a-text>
+        <a-text value="What are Functional Requirements in Software Architecture?" color="#ADD8E6" position="-23 8 25" ></a-text>
+        <a-text value="Functional requirements are all about the product features that must be implemented so that the user can achieve their goals!
+        They are important for defining how the system should behave given a condition! (Nuclino 2023)" color=" #f7f5f5 " position="-23 7 25" ></a-text>
+        <a-text value="Functional requirements are not the same as other types of requirements, such as Business requirements or user requirements.
+        Their main purpose is to describe to the developers how the system should operate based on how a user will interact with the system." color=" #f7f5f5 "
+         position="-23 5.5 25" ></a-text>
+         <a-text value="Functional Requirements are a crucial element of Agile Development. They help teams with following a plan of what elements they need to 
+         develop so that the system does what it is expected to. " color=" #f7f5f5 "
+         position="-23 4 25" ></a-text>
+        <a-text value="Functional Requirements are written as a part of a user story. A User Story is a key component of Agile Development, where it tells the 
+         developer what a specific kind of user should be able to do and why they need that functionality. Keep reading below to learn about how Functional 
+         Requirements are written with User Stories." color="#f7f5f5" position="-23 2.25 25"></a-text>
+        
+        <a-text value="Functional Requirements" color="#00FFFF" position="-15 9 24" scale="3 3 3" rotation="0 90 0"></a-text>
+        <a-text value="How are Functional Requirements Written?" color="#ADD8E6" position="-15 6 22.5" rotation="0 90 0" ></a-text>
+        <a-text value="Functional Requirements are a crucial element of Agile Development. They help teams with following a plan 
+        of what elements they need to develop so that the system does what it is expected to. " color="#f7f5f5" position="-15 5 22.5" rotation="0 90 0" ></a-text>
+        <a-text value="Functional Requirements are written as a part of a user story. A User Story is a key component of Agile Development, where it tells the 
+        developer what a specific kind of user should be able to do and why they need that functionality. Keep reading below to learn about how Functional 
+        Requirements are written with User Stories. " color="#f7f5f5" position="-15 3.5 22.5" rotation="0 90 0" ></a-text>
+
+        <a-text value="Functional Requirements" color="#00FFFF" position="-16.5 9 15" scale="3 3 3" rotation="0 180 0"></a-text>
+        <a-text value="But First, What is Agile Development?" color="#ADD8E6" position="-17.5 6.6 15" rotation="0 180 0" ></a-text>
+        <a-text value="Agile development is a conceptual framework for Software Engineering that involves creating development goals and 
+        planning the road ahead to meet them! It involves a life-cycle process where there are goals and requirements that a team of developers
+         needs to meet, but it is flexible and allows changes to be made in terms of what needs to be developed and at what time.  
+        " color="#f7f5f5" position="-17.5 5 15" rotation="0 180 0" ></a-text>
+        <a-text value="The most common component of an Agile Development is that of User Stories. A User Story is a way of writing out any type of 
+        requirement in a business context, so that the developers can understand how to implement that functionality.   
+        " color="#f7f5f5" position="-17.5 3 15" rotation="0 180 0" ></a-text>
+        
+        <a-text value="Functional Requirements" color="#00FFFF" position="-25 9 16" scale="3 3 3" rotation="0 270 0"></a-text>
+        <a-text value="The General Format for a User Story is as Follows: " color="#ADD8E6" position="-25 7 17.25" rotation="0 270 0" ></a-text>
+        <a-text value="An example of a user story written for a functional requirement may be the following:  
+        " color="#f7f5f5" position="-25 6.25 17.25" rotation="0 270 0" ></a-text>
+        <a-text value="'As an existing user, I want to be able to save my credit card details so I can easily make future purchases.'" 
+        color="#f7f5f5" position="-25 5.5 17.25" rotation="0 270 0"></a-text>
+        <a-text value="The Functional Requirements of this user story may look like this:   
+        " color="#f7f5f5" position="-25 4.75 17.25" rotation="0 270 0" ></a-text>
+        <a-text value=" - The system must allow users to enter in their credit card details in their account by filling in the relavent fields.    
+        " color="#f7f5f5" position="-25 4 17.25" rotation="0 270 0" ></a-text>
+        <a-text value=" - The system must allow the user to save their credit card details by clicking on 'Save Credit Card Details'  
+        " color="#f7f5f5" position="-25 3.10 17.25" rotation="0 270 0" ></a-text>
+        <a-text value=" - The system must allow the user to remove their saved credit card details by clicking on 'Delete Credit Card' from a list of saved credit cards.    
+        " color="#f7f5f5" position="-25 2.25 17.25" rotation="0 270 0" ></a-text>
+
+        <!-- Quality Attributes Block -->
+        <a-text value="Quality Attribute Requirements" color="#EF2D5E" position="15.5 9 25" scale="3 3 3"></a-text>
+        <a-text value="What are Quality Attribute Requirements in Software Architecture?" color="#f0a1b5" position="17.25 7 25" ></a-text>
+        <a-text value= "Quality Attribute Requirements (QAR), a.k.a. Non-Functional Requirements,  are a means of validating the Functional Requirements 
+          created in Agile Development. Each QAR provides a more in-depth context behind different aspects of each functional Requirement (Carneige Mellon University 2023)"
+          color="#f7f5f5" position="17.25 5.5 25"></a-text>
+        <a-text value= "For example, you may have a Functional Requirement where the 'User must be able to login with their account credentials',
+          a relavent qualification using a QAR may be how fast it takes for the system to log the user in. This example here is a reference to the QAR of Performance."
+          color="#f7f5f5" position="17.25 3.75 25"></a-text>
+
+          <a-text value="Quality Attribute Requirements" color="#EF2D5E" position="25 9 24.5" scale="3 3 3" rotation="0 90 0"></a-text>
+        <a-text value="How many Quality Attributes are there?" color="#f0a1b5" position="25 8 22.5" rotation="0 90 0"></a-text>
+        <a-text value= "There is a large list of Quality Attributes, but the main ones that are considered are: "
+          color="#f7f5f5" position="25 7.25 22.5" rotation="0 90 0"></a-text>
+        <a-text value="Availability - How available is a Web application to the user when it is updating?" 
+          color= "f7f5f5" position="25 6.5 22.5" rotation="0 90 0"></a-text>  
+        <a-text value="Interoperability - How does the system retrieve data from other systems?" 
+          color= "f7f5f5" position="25 5.75 22.5" rotation="0 90 0"></a-text>
+        <a-text value="Modifiability - How easily can developers modify the data?" 
+          color= "f7f5f5" position="25 5 22.5" rotation="0 90 0"></a-text>
+        <a-text value="Performance - How fast does the system respond when the user inputs data?" 
+          color= "f7f5f5" position="25 4.25 22.5" rotation="0 90 0"></a-text>
+        <a-text value="Security - How does the system handle unauthorized users?" 
+          color= "f7f5f5" position="25 3.5 22.5" rotation="0 90 0"></a-text>
+        <a-text value="Tetability - How easy is it for Testers to check the fucntionality of the sytem?" 
+          color= "f7f5f5" position="25 2.75 22.5" rotation="0 90 0"></a-text>
+        <a-text value="Usability - How easy is it for users to interact with the system?" 
+          color= "f7f5f5" position="25 2 22.5" rotation="0 90 0"></a-text>
+        <a-text value="Scalability - How well does the system accomodate a large number of users and data?" 
+          color="f7f5f5" position="25 1.25 22.5" rotation="0 90 0"></a-text>
+
+        <a-text value="Quality Attribute Requirements" color="#EF2D5E" position="24.35 9 15" scale="3 3 3" rotation="0 180 0"></a-text>
+        <a-text value="How do these Quality Attributes relate to Agile Development?" color="#f0a1b5" position="22.25 6 15" rotation="0 180 0"></a-text>
+        <a-text value="A Functional Requirement can have one or many Quality Attribute Requirements it must meet." 
+          color="#f7f5f5" position="22.25 5 15" rotation="0 180 0"></a-text>
+          <a-text value="For example,if a the Functional Requirement is 'User must be able to login with their account 
+          credentials', then the QAR of Availability may be that 'The system MUST be avalable to the user 24/7 so that they can login at any time.'" 
+          color="#f7f5f5" position="22.25 4 15" rotation="0 180 0"></a-text>
+        
+        <a-text value="Quality Attribute Requirements" color="#EF2D5E" position="15 9 15.5" scale="3 3 3" rotation="0 270 0"></a-text>
+        <a-text value="What are some scenarios regarding Quality Attribute Requirements?" color="#f0a1b5" position="15 7.75 17.25" rotation="0 270 0" ></a-text>
+        <a-text value="Statements like “a system will have high performance” or “a system will be user friendly” are acceptable in the really 
+        early stages of requirements elicitation process (i.e. business concept brainstorming). 
+        As more information becomes available, the above statements become useless as they are 
+        meaningless for the purpose of actually designing a solution. In each of the two examples 
+        above an attempt is made to describe the behavior of a system. Both statements are useless
+         as they provide no tangible way of measuring the behavior of the system." color="#f7f5f5" position="15 5.75 17.25" rotation="0 270 0" ></a-text>
+        <a-text value="Writing effective scenarios takes some time to learn. But it's an important 
+        skill, as it's in the scenarios where the desired vague software behaviors are turned into 
+        tangible and measurable goals. Measurable goals tells you what architectural approaches and 
+        tactis to apply as you design the system. It's easiest to learn by looking at examples. See 
+        this resource on how you can download a catalog of over 100 well defined quality attribute 
+        scenarios." color="#f7f5f5" position="15 2.75 17.25" rotation="0 270 0" ></a-text>
+
+        
+    </a-scene>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/site.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <title>VaRchLab - Functional Requirements</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="javascript/myscripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark" style="background-color: #10c7f5;">
+            <a class="navbar-brand" href="Index.html">SOFTWARE SYSTEMS ARCHITECTURE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="Index.html">Home</a>
+                <a class="nav-item nav-link" href="FunctionalRequirements.html">Functional Requirements</a>
+                <a class="nav-item nav-link" href="QARequirements.html">Quality Attribute Requirements</a>
+                <a class="nav-item nav-link" href="Constraints.html">Constraints</a>
+                <a class="nav-item nav-link" href="QAScenarios.html">Quality Attribute Scenarios</a>
+                <a class="nav-item nav-link" href="AboutUs.html">About Us</a>
+                <a class="nav-item nav-link" href="SSAVRExperience.html">SSA VR Experience</a>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+    </header>
+    <div class = "wrapper">
+        <main class="noimage1">
+            <div class="noimage">
+                <div class="col-md-12 col-sm-6 bg w1"> 
+                    <h1 class="h1ding">Functional Requirements </h1>
+                    <h2 class="h2ding">What are Functional Requirements in Software Architecture? </h2>
+                        <p class="pgraph">Functional requirements are all about the product features that must be implemented so that the user can achieve their goals!
+                            They are important for defining how the system should behave given a condition! (Nuclino 2023) </p>
+                        <p class="pgraph">Functional requirements are not the same as other types of requirements, such as Business requirements or user requirements.
+                            Their main purpose is to describe to the developers how the system should operate based on how a user will interact with the system.  </p>
+                        <!-- Resourced from: https://www.nuclino.com/articles/functional-requirements -->
+
+                    <h2 class="h2ding"> How Are Functional Requirements Written? </h2>
+                    <p class="pgraph">Functional Requirements are a crucial element of Agile Development. They help teams with following a plan of 
+                        what elements they need to develop so that the system does what it is expected to.  </p>
+                    <p class="pgraph"> Functional Requirements are written as a part of a user story. A User Story is a key component of Agile Development,
+                        where it tells the developer what a specific kind of user should be able to do and why they need that functionality. 
+                        Keep reading below to learn about how Functional Requirements are written with User Stories.  </p>
+                            
+                    <h2 class="h2ding"> But first, what is Agile Development? </h3>
+                    <p class="pgraph">Agile development is a conceptual framework for Software Engineering that involves creating development goals and
+                        planning the road ahead to meet them! It involves a life-cycle process where there are goals and requirements that 
+                        a team of developers needs to meet, but it is flexible and allows changes to be made in terms of what needs to be developed
+                        and at what time. 
+                        <!-- Resourced from: https://pdfs.semanticscholar.org/2fef/154748093288894dbd0b98db1b9b54731c71.pdf -->
+                    </p>
+                    <p class="pgraph">The most common component of an Agile Development is that of <b>User Stories</b>. A <b\>User Story</b> is a way of writing out any type 
+                        of requirement in a business context, so that the developers can understand how to implement that functionality. The general format for 
+                    a user story is as follows:  </p>
+                    <p class="pgraph">As a (user type), I want to (function) so that (benefit).</user></p>
+                    <p class="pgraph">An example of a user story written for a functional requirement may be the following: 
+                        <p class="pgraph"> "As an existing user, I want to be able to save my credit card details so I can easily make future purchases." </p>
+                        <!-- Referenced from https://chrisdaviescoach.medium.com/how-to-deal-with-nfrs-in-agile-639f8d055063#:~:text=If%20you%20are%20not%20already,how%20the%20system%20does%20it. -->
+                    </p>
+                    <p class="pgraph"> <b> The Functional Requirements of this user story may look like this: </b>
+                    </p>
+                    <h4> Functional Requirements:</h4>
+                    <ul>
+                        <li class="lsts"> The system must allow users to enter in their credit card details in their account by filling in the relavent fields. </li>
+                        <li class="lsts"> The system must allow the user to save their credit card details by clicking on "Save Credit Card Details". </li>
+                        <li class="lsts"> The system must allow the user to remove their saved credit card details by clicking on "Delete Credit Card" from a list
+                            of saved credit cards.  </li>
+                    </ul>
+
+                    <div class="quiz-container">
+                        <h1>Lets test your understanding! </h1>
+                        <p> </p>
+                        <p>Which of the following User Stories is in the correct format?:</p>
+                        <input type="radio" name="answer" value="a"> a) 'As a user, I want to log into my account.<br>
+                        <input type="radio" name="answer" value="b"> b) As a person, I want to have a shopping cart functionality so that I can easily purchase items.<br>
+                        <input type="radio" name="answer" value="c"> c) As an Executive, I would like to generate a report for my ease of use.<br>
+                        <!-- <input type="radio" name="answer" value="d"> d) Rome<br> -->
+                        <button onclick="checkAnswer()">Submit</button>
+                        <p id="result"></p>
+                    </div>    
+
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="noimage">
+        <div class="container-fluid">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: rgba(22, 22, 22, 0.79); padding: auto;">
+        <p class="footer">&copy; 2023 Group 24 (9785). All rights reserved to the University of Canberra.</p>
+        <p class="footer"style="margin-bottom: 0rem;">Website created with Visual Studio Code.</p>
+    </footer>
+</body>
+</html>
